@@ -22,13 +22,13 @@ def read_data_noob(file_path, method, train_size=None):
     X = np.array([])
     y = np.array([])
     file_data = np.genfromtxt(file_path, dtype=float, delimiter=",")
+    np.random.shuffle(file_data)
 #     print(file_data[:5])
     for row in file_data:
         X = np.append(X, row[0])
         y = np.append(y, row[1])
-    np.random.shuffle(X)
-    np.random.shuffle(y)
 #     print(X[:5], y[:5])
+    y = np.reshape(y,(-1,1))
     return X, y
 
 # def read_data(file_path, method, train_size=None):
@@ -60,56 +60,86 @@ def pinvtry(file_path, method, polnyomial, result_dir, lamb):
     N = len(X)
     temp_X = X
     X_new = X
-#     E_rms = []
 
     M = np.arange(2, polynomial+1)
     for m in M:
         temp_X = temp_X*X
         X_new = np.c_[X_new, temp_X]
-    #y_hat = X_fin.dot(theta_best)
-    #temp_val = sum((y_hat-y)**2)
-    #temp_val /= len(y)
-    #E_rms.append(temp_val)
-    
     X_fin = np.c_[np.ones((N, 1)), X_new]
     #wt_best = np.linalg.pinv(X_fin).dot(y)
     wt_best = np.linalg.inv((lamb*np.identity(polynomial+1)) + X_fin.T.dot(X_fin)).dot(X_fin.T).dot(y)
     
     y_hat = X_fin.dot(wt_best)
     err = sum((y_hat-y)**2)
-    #err/=N
-    #disperr(err)
+    err/=N
+#     disperr(err)
     dispwt(wt_best)
     return;
 
 
+
+def update_weights(X, y, Wt, lr, lamb):
+    Wt = Wt-lr*gradient(X, y, Wt, lamb)
+    return Wt
+
+def gradient(X, y, Wt, lamb):
+    gr = np.dot(np.transpose(X), predict(X, Wt)-y)/X.shape[0] 
+    gr += lamb*Wt/X.shape[0]
+    return gr
+
+def predict(X, Wt):
+    pr =  X.dot(Wt)
+    return pr
+
         
 def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir):
     
-    lr = 1e-3
-    wt = np.random.randn(polynomial+1,1)
     M = np.arange(2, polynomial+1)
     
-    X, y = read_data_noob(file_path = file_path, method = "pinv")
+    X, y = read_data_noob(file_path = file_path, method = "gd")
     N  = len(X)
     
+    
+    sub = 0
+    div = 0
+    meen = 0
+
+    sub = X.min()
+    div = X.max() - X.min()
+    temp = (X - sub)/div
+    mean = temp.mean()
+    X = temp - mean
+
     temp_X = X
     X_new = X
+
     for m in M:
         temp_X = temp_X*X
+        sub = (temp_X.min())
+        div = (temp_X.max() - temp_X.min())
+        temp_X = (temp_X - sub)/div
+        mean = (temp_X.mean())
+        temp_X = temp_X - mean
         X_new = np.c_[X_new, temp_X]
+
+        #norm = (temp_X_train - temp_X_train.min()) / (temp_X_train.max() - temp_X_train.min())
+        #temp_X_train = norm - np.mean(norm)
+
     X_fin = np.c_[np.ones((len(X_new), 1)), X_new]
-    
-    for i in range(0, N, batch_size):
-        X_i = X_fin[i:i+batch_size]
-        y_i = y[i:i+batch_size]
-        grad = ((1/batch_size) * X_i.T.dot(X_i.dot(wt) - y_i)) + (lamb/batch_size)*wt
-        wt = wt - lr*grad
-    
+
+    wt = np.random.randn(polynomial+1,1)
+#     print(wt.shape)
+    for niter in range(1500):
+        for i in range(0, N, batch_size):
+            X_i = X_fin[i:i+batch_size]
+            y_i = y[i:i+batch_size]
+            lr = 0.3/(i+0.17)
+            wt = update_weights(X_i, y_i, wt, lr, lamb)
+        
     y_hat = X_fin.dot(wt)
     err = sum((y_hat-y)**2)
-    #err/=N
-    disperr(err)
+    err/=N
+#     disperr(err)
     dispwt(wt)
     return;
 
