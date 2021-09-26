@@ -109,7 +109,7 @@ def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir):
     y_hat = X_fin.dot(wt)
     err = sum((y_hat-y)**2)
     #err/=N
-    #disperr(err)
+    disperr(err)
     dispwt(wt)
     return;
 
