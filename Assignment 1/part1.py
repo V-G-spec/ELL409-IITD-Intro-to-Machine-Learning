@@ -16,6 +16,7 @@ def setup():
     parser.add_argument("--polynomial", default=10, type=float, help = "degree of polynomial")
     parser.add_argument("--result_dir", default="", type=str, help = "Files to store plots")  
     parser.add_argument("--X", default="1A ", type=str, help = "Read content from the file")
+    parser.add_argument("--show_err", default=False, type=bool, help = "Show error for the weights produced")
     return parser.parse_args()
     
 def read_data_noob(file_path, method, train_size=None):
@@ -55,7 +56,7 @@ def read_data_noob(file_path, method, train_size=None):
 
 
     
-def pinvtry(file_path, method, polnyomial, result_dir, lamb):
+def pinvtry(file_path, method, polnyomial, result_dir, lamb, show_err):
     X, y = read_data_noob(file_path = file_path, method = method)
     N = len(X)
     temp_X = X
@@ -72,7 +73,8 @@ def pinvtry(file_path, method, polnyomial, result_dir, lamb):
     y_hat = X_fin.dot(wt_best)
     err = sum((y_hat-y)**2)
     err/=N
-#     disperr(err)
+    if (show_err):
+        disperr(err)
     dispwt(wt_best)
     return;
 
@@ -92,14 +94,14 @@ def predict(X, Wt):
     return pr
 
         
-def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir):
+def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir, show_err):
     
     M = np.arange(2, polynomial+1)
     
     X, y = read_data_noob(file_path = file_path, method = "gd")
     N  = len(X)
     
-    
+    epochs = 2000
     sub = 0
     div = 0
     meen = 0
@@ -129,7 +131,7 @@ def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir):
 
     wt = np.random.randn(polynomial+1,1)
 #     print(wt.shape)
-    for niter in range(1500):
+    for niter in range(epochs):
         for i in range(0, N, batch_size):
             X_i = X_fin[i:i+batch_size]
             y_i = y[i:i+batch_size]
@@ -139,7 +141,8 @@ def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir):
     y_hat = X_fin.dot(wt)
     err = sum((y_hat-y)**2)
     err/=N
-#     disperr(err)
+    if (show_err):
+        disperr(err)
     dispwt(wt)
     return;
 
@@ -164,10 +167,11 @@ if __name__ == '__main__':
     polynomial = int(args["polynomial"])
     result_dir = args["result_dir"]
     X = args["X"]
+    show_err = args["show_err"]
     if (method=="pinv"):
-        pinvtry(X, method, polynomial, result_dir, lamb)
+        pinvtry(X, method, polynomial, result_dir, lamb, show_err)
     elif (method=="gd"):
-        gdtry(X, method, polynomial, batch_size, lamb, result_dir)
+        gdtry(X, method, polynomial, batch_size, lamb, result_dir, show_err)
     else:
         print("Not an option. Exiting code...")
 #         foo.demo(args)
