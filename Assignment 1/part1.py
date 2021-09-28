@@ -1,5 +1,5 @@
 import argparse  
-from code_part1 import foo
+# from code_part1 import foo
 import numpy as np
 from numpy.linalg import inv
 # import pandas as pd
@@ -87,6 +87,7 @@ def update_weights(X, y, Wt, lr, lamb):
 def gradient(X, y, Wt, lamb):
     gr = np.dot(np.transpose(X), predict(X, Wt)-y)/X.shape[0] 
     gr += lamb*Wt/X.shape[0]
+    gr /= np.linalg.norm(gr)
     return gr
 
 def predict(X, Wt):
@@ -109,8 +110,8 @@ def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir, show_err)
     sub = X.min()
     div = X.max() - X.min()
     temp = (X - sub)/div
-    mean = temp.mean()
-    X = temp - mean
+    meen = temp.mean()
+    X = temp - meen
 
     temp_X = X
     X_new = X
@@ -120,8 +121,8 @@ def gdtry(file_path, method, polynomial, batch_size, lamb, result_dir, show_err)
         sub = (temp_X.min())
         div = (temp_X.max() - temp_X.min())
         temp_X = (temp_X - sub)/div
-        mean = (temp_X.mean())
-        temp_X = temp_X - mean
+        meen = (temp_X.mean())
+        temp_X = temp_X - meen
         X_new = np.c_[X_new, temp_X]
 
         #norm = (temp_X_train - temp_X_train.min()) / (temp_X_train.max() - temp_X_train.min())
