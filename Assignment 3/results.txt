@@ -1,0 +1,2051 @@
+--------------------------------------------------
+Iteration Number: 1
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.460304 | Final loss:0.460304
+Train accuracy: 12.656250
+Dev accuracy: 10.208333
+Total time taken on given set of hyperparameters: 5.930017 seconds
+
+--------------------------------------------------
+Iteration Number: 2
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457501 | Final loss:0.457501
+Train accuracy: 11.875000
+Dev accuracy: 10.833333
+Total time taken on given set of hyperparameters: 5.818786 seconds
+
+--------------------------------------------------
+Iteration Number: 3
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.454523 | Final loss:0.454523
+Train accuracy: 12.291667
+Dev accuracy: 8.750000
+Total time taken on given set of hyperparameters: 5.782379 seconds
+
+--------------------------------------------------
+Iteration Number: 4
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.456434 | Final loss:0.456434
+Train accuracy: 12.812500
+Dev accuracy: 12.708333
+Total time taken on given set of hyperparameters: 5.796021 seconds
+
+--------------------------------------------------
+Iteration Number: 5
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.094018 | Final loss:0.094018
+Train accuracy: 9.062500
+Dev accuracy: 11.875000
+Total time taken on given set of hyperparameters: 5.977687 seconds
+
+--------------------------------------------------
+Iteration Number: 6
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.093829 | Final loss:0.093829
+Train accuracy: 10.520833
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 6.002554 seconds
+
+--------------------------------------------------
+Iteration Number: 7
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092802 | Final loss:0.092802
+Train accuracy: 9.166667
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 5.958125 seconds
+
+--------------------------------------------------
+Iteration Number: 8
+Number of Epochs: 1 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092089 | Final loss:0.092089
+Train accuracy: 11.145833
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 5.953504 seconds
+
+--------------------------------------------------
+Iteration Number: 9
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.456646 | Final loss:0.456646
+Train accuracy: 17.395833
+Dev accuracy: 9.791667
+Total time taken on given set of hyperparameters: 5.825046 seconds
+
+--------------------------------------------------
+Iteration Number: 10
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458031 | Final loss:0.458031
+Train accuracy: 15.677083
+Dev accuracy: 7.916667
+Total time taken on given set of hyperparameters: 5.813551 seconds
+
+--------------------------------------------------
+Iteration Number: 11
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457534 | Final loss:0.457534
+Train accuracy: 17.760417
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 5.809528 seconds
+
+--------------------------------------------------
+Iteration Number: 12
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457028 | Final loss:0.457028
+Train accuracy: 16.302083
+Dev accuracy: 10.416667
+Total time taken on given set of hyperparameters: 5.781814 seconds
+
+--------------------------------------------------
+Iteration Number: 13
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091697 | Final loss:0.091697
+Train accuracy: 11.354167
+Dev accuracy: 8.750000
+Total time taken on given set of hyperparameters: 5.906495 seconds
+
+--------------------------------------------------
+Iteration Number: 14
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091305 | Final loss:0.091305
+Train accuracy: 12.187500
+Dev accuracy: 11.041667
+Total time taken on given set of hyperparameters: 5.941527 seconds
+
+--------------------------------------------------
+Iteration Number: 15
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091974 | Final loss:0.091974
+Train accuracy: 12.135417
+Dev accuracy: 10.000000
+Total time taken on given set of hyperparameters: 5.912657 seconds
+
+--------------------------------------------------
+Iteration Number: 16
+Number of Epochs: 1 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.090858 | Final loss:0.090858
+Train accuracy: 12.500000
+Dev accuracy: 9.583333
+Total time taken on given set of hyperparameters: 5.921328 seconds
+
+--------------------------------------------------
+Iteration Number: 17
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457738 | Final loss:0.457738
+Train accuracy: 18.020833
+Dev accuracy: 9.583333
+Total time taken on given set of hyperparameters: 5.977176 seconds
+
+--------------------------------------------------
+Iteration Number: 18
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457372 | Final loss:0.457372
+Train accuracy: 17.656250
+Dev accuracy: 10.833333
+Total time taken on given set of hyperparameters: 5.767117 seconds
+
+--------------------------------------------------
+Iteration Number: 19
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458542 | Final loss:0.458542
+Train accuracy: 16.770833
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 5.832477 seconds
+
+--------------------------------------------------
+Iteration Number: 20
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.456918 | Final loss:0.456918
+Train accuracy: 22.343750
+Dev accuracy: 9.166667
+Total time taken on given set of hyperparameters: 5.761203 seconds
+
+--------------------------------------------------
+Iteration Number: 21
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091617 | Final loss:0.091617
+Train accuracy: 19.687500
+Dev accuracy: 6.666667
+Total time taken on given set of hyperparameters: 6.023116 seconds
+
+--------------------------------------------------
+Iteration Number: 22
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091588 | Final loss:0.091588
+Train accuracy: 16.822917
+Dev accuracy: 10.625000
+Total time taken on given set of hyperparameters: 5.883593 seconds
+
+--------------------------------------------------
+Iteration Number: 23
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091684 | Final loss:0.091684
+Train accuracy: 18.281250
+Dev accuracy: 10.208333
+Total time taken on given set of hyperparameters: 5.864478 seconds
+
+--------------------------------------------------
+Iteration Number: 24
+Number of Epochs: 1 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091563 | Final loss:0.091563
+Train accuracy: 16.093750
+Dev accuracy: 9.375000
+Total time taken on given set of hyperparameters: 5.913191 seconds
+
+--------------------------------------------------
+Iteration Number: 25
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.463110 | Final loss:0.448938
+Train accuracy: 14.583333
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 57.638264 seconds
+
+--------------------------------------------------
+Iteration Number: 26
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457568 | Final loss:0.450487
+Train accuracy: 13.020833
+Dev accuracy: 13.750000
+Total time taken on given set of hyperparameters: 57.188340 seconds
+
+--------------------------------------------------
+Iteration Number: 27
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458703 | Final loss:0.448967
+Train accuracy: 14.218750
+Dev accuracy: 10.625000
+Total time taken on given set of hyperparameters: 56.986035 seconds
+
+--------------------------------------------------
+Iteration Number: 28
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.460179 | Final loss:0.449534
+Train accuracy: 13.697917
+Dev accuracy: 12.083333
+Total time taken on given set of hyperparameters: 57.587210 seconds
+
+--------------------------------------------------
+Iteration Number: 29
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.093378 | Final loss:0.091290
+Train accuracy: 10.312500
+Dev accuracy: 11.250000
+Total time taken on given set of hyperparameters: 58.275168 seconds
+
+--------------------------------------------------
+Iteration Number: 30
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091960 | Final loss:0.091053
+Train accuracy: 10.989583
+Dev accuracy: 9.583333
+Total time taken on given set of hyperparameters: 57.774080 seconds
+
+--------------------------------------------------
+Iteration Number: 31
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092600 | Final loss:0.091201
+Train accuracy: 10.989583
+Dev accuracy: 12.083333
+Total time taken on given set of hyperparameters: 57.285219 seconds
+
+--------------------------------------------------
+Iteration Number: 32
+Number of Epochs: 10 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.093773 | Final loss:0.091229
+Train accuracy: 11.666667
+Dev accuracy: 10.416667
+Total time taken on given set of hyperparameters: 57.273820 seconds
+
+--------------------------------------------------
+Iteration Number: 33
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458010 | Final loss:0.428566
+Train accuracy: 28.802083
+Dev accuracy: 11.666667
+Total time taken on given set of hyperparameters: 57.234158 seconds
+
+--------------------------------------------------
+Iteration Number: 34
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.455300 | Final loss:0.426146
+Train accuracy: 28.697917
+Dev accuracy: 8.958333
+Total time taken on given set of hyperparameters: 56.910175 seconds
+
+--------------------------------------------------
+Iteration Number: 35
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457814 | Final loss:0.425484
+Train accuracy: 31.562500
+Dev accuracy: 10.000000
+Total time taken on given set of hyperparameters: 56.817651 seconds
+
+--------------------------------------------------
+Iteration Number: 36
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457279 | Final loss:0.428219
+Train accuracy: 28.072917
+Dev accuracy: 10.416667
+Total time taken on given set of hyperparameters: 56.719947 seconds
+
+--------------------------------------------------
+Iteration Number: 37
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091796 | Final loss:0.089191
+Train accuracy: 17.656250
+Dev accuracy: 10.833333
+Total time taken on given set of hyperparameters: 57.939039 seconds
+
+--------------------------------------------------
+Iteration Number: 38
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091865 | Final loss:0.089119
+Train accuracy: 16.614583
+Dev accuracy: 9.583333
+Total time taken on given set of hyperparameters: 57.747194 seconds
+
+--------------------------------------------------
+Iteration Number: 39
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091466 | Final loss:0.089208
+Train accuracy: 16.770833
+Dev accuracy: 11.666667
+Total time taken on given set of hyperparameters: 57.626062 seconds
+
+--------------------------------------------------
+Iteration Number: 40
+Number of Epochs: 10 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091982 | Final loss:0.089341
+Train accuracy: 15.989583
+Dev accuracy: 9.791667
+Total time taken on given set of hyperparameters: 57.629262 seconds
+
+--------------------------------------------------
+Iteration Number: 41
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457483 | Final loss:0.273800
+Train accuracy: 50.156250
+Dev accuracy: 11.250000
+Total time taken on given set of hyperparameters: 57.026922 seconds
+
+--------------------------------------------------
+Iteration Number: 42
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457219 | Final loss:0.273202
+Train accuracy: 48.489583
+Dev accuracy: 7.916667
+Total time taken on given set of hyperparameters: 56.622189 seconds
+
+--------------------------------------------------
+Iteration Number: 43
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458250 | Final loss:0.269670
+Train accuracy: 55.520833
+Dev accuracy: 11.041667
+Total time taken on given set of hyperparameters: 56.419693 seconds
+
+--------------------------------------------------
+Iteration Number: 44
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458416 | Final loss:0.274092
+Train accuracy: 56.562500
+Dev accuracy: 8.541667
+Total time taken on given set of hyperparameters: 56.521848 seconds
+
+--------------------------------------------------
+Iteration Number: 45
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091411 | Final loss:0.080769
+Train accuracy: 39.791667
+Dev accuracy: 9.583333
+Total time taken on given set of hyperparameters: 57.758933 seconds
+
+--------------------------------------------------
+Iteration Number: 46
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091363 | Final loss:0.079609
+Train accuracy: 37.708333
+Dev accuracy: 11.666667
+Total time taken on given set of hyperparameters: 57.578980 seconds
+
+--------------------------------------------------
+Iteration Number: 47
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091440 | Final loss:0.080262
+Train accuracy: 41.718750
+Dev accuracy: 10.416667
+Total time taken on given set of hyperparameters: 57.318017 seconds
+
+--------------------------------------------------
+Iteration Number: 48
+Number of Epochs: 10 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091671 | Final loss:0.079855
+Train accuracy: 42.187500
+Dev accuracy: 9.166667
+Total time taken on given set of hyperparameters: 57.420827 seconds
+
+--------------------------------------------------
+Iteration Number: 49
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457142 | Final loss:0.446377
+Train accuracy: 16.875000
+Dev accuracy: 10.625000
+Total time taken on given set of hyperparameters: 113.832990 seconds
+
+--------------------------------------------------
+Iteration Number: 50
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.462893 | Final loss:0.448786
+Train accuracy: 13.750000
+Dev accuracy: 10.208333
+Total time taken on given set of hyperparameters: 112.890073 seconds
+
+--------------------------------------------------
+Iteration Number: 51
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.463418 | Final loss:0.446462
+Train accuracy: 16.614583
+Dev accuracy: 9.583333
+Total time taken on given set of hyperparameters: 112.899993 seconds
+
+--------------------------------------------------
+Iteration Number: 52
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458608 | Final loss:0.445793
+Train accuracy: 16.666667
+Dev accuracy: 12.708333
+Total time taken on given set of hyperparameters: 115.065072 seconds
+
+--------------------------------------------------
+Iteration Number: 53
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092811 | Final loss:0.090728
+Train accuracy: 11.927083
+Dev accuracy: 10.625000
+Total time taken on given set of hyperparameters: 115.689917 seconds
+
+--------------------------------------------------
+Iteration Number: 54
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092127 | Final loss:0.090637
+Train accuracy: 11.354167
+Dev accuracy: 7.708333
+Total time taken on given set of hyperparameters: 117.184878 seconds
+
+--------------------------------------------------
+Iteration Number: 55
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092420 | Final loss:0.091221
+Train accuracy: 10.781250
+Dev accuracy: 11.458333
+Total time taken on given set of hyperparameters: 114.774119 seconds
+
+--------------------------------------------------
+Iteration Number: 56
+Number of Epochs: 20 
+Initial Learning Rate: 0.001000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092221 | Final loss:0.090670
+Train accuracy: 12.656250
+Dev accuracy: 10.000000
+Total time taken on given set of hyperparameters: 116.694984 seconds
+
+--------------------------------------------------
+Iteration Number: 57
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.454856 | Final loss:0.391712
+Train accuracy: 41.302083
+Dev accuracy: 7.916667
+Total time taken on given set of hyperparameters: 113.861783 seconds
+
+--------------------------------------------------
+Iteration Number: 58
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.456894 | Final loss:0.406157
+Train accuracy: 37.291667
+Dev accuracy: 9.791667
+Total time taken on given set of hyperparameters: 115.204756 seconds
+
+--------------------------------------------------
+Iteration Number: 59
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.455682 | Final loss:0.404833
+Train accuracy: 37.916667
+Dev accuracy: 9.375000
+Total time taken on given set of hyperparameters: 113.060495 seconds
+
+--------------------------------------------------
+Iteration Number: 60
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.456366 | Final loss:0.401534
+Train accuracy: 39.010417
+Dev accuracy: 10.208333
+Total time taken on given set of hyperparameters: 114.688662 seconds
+
+--------------------------------------------------
+Iteration Number: 61
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.092203 | Final loss:0.088230
+Train accuracy: 21.302083
+Dev accuracy: 8.125000
+Total time taken on given set of hyperparameters: 116.044880 seconds
+
+--------------------------------------------------
+Iteration Number: 62
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091431 | Final loss:0.088156
+Train accuracy: 21.041667
+Dev accuracy: 12.083333
+Total time taken on given set of hyperparameters: 117.052620 seconds
+
+--------------------------------------------------
+Iteration Number: 63
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091650 | Final loss:0.088530
+Train accuracy: 20.260417
+Dev accuracy: 11.666667
+Total time taken on given set of hyperparameters: 115.310055 seconds
+
+--------------------------------------------------
+Iteration Number: 64
+Number of Epochs: 20 
+Initial Learning Rate: 0.010000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091434 | Final loss:0.088457
+Train accuracy: 19.375000
+Dev accuracy: 11.041667
+Total time taken on given set of hyperparameters: 117.416056 seconds
+
+--------------------------------------------------
+Iteration Number: 65
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457526 | Final loss:0.130492
+Train accuracy: 75.572917
+Dev accuracy: 8.333333
+Total time taken on given set of hyperparameters: 114.370841 seconds
+
+--------------------------------------------------
+Iteration Number: 66
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.456711 | Final loss:0.123793
+Train accuracy: 77.968750
+Dev accuracy: 8.125000
+Total time taken on given set of hyperparameters: 115.200083 seconds
+
+--------------------------------------------------
+Iteration Number: 67
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.458859 | Final loss:0.139045
+Train accuracy: 72.031250
+Dev accuracy: 9.375000
+Total time taken on given set of hyperparameters: 113.796263 seconds
+
+--------------------------------------------------
+Iteration Number: 68
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457814 | Final loss:0.134376
+Train accuracy: 75.052083
+Dev accuracy: 11.250000
+Total time taken on given set of hyperparameters: 115.872215 seconds
+
+--------------------------------------------------
+Iteration Number: 69
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091571 | Final loss:0.061345
+Train accuracy: 58.750000
+Dev accuracy: 9.166667
+Total time taken on given set of hyperparameters: 116.718241 seconds
+
+--------------------------------------------------
+Iteration Number: 70
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091665 | Final loss:0.066088
+Train accuracy: 56.458333
+Dev accuracy: 10.208333
+Total time taken on given set of hyperparameters: 118.235966 seconds
+
+--------------------------------------------------
+Iteration Number: 71
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091341 | Final loss:0.064550
+Train accuracy: 55.781250
+Dev accuracy: 10.625000
+Total time taken on given set of hyperparameters: 115.903010 seconds
+
+--------------------------------------------------
+Iteration Number: 72
+Number of Epochs: 20 
+Initial Learning Rate: 0.100000 
+Cost Function used: Mse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.091627 | Final loss:0.063986
+Train accuracy: 54.635417
+Dev accuracy: 7.916667
+Total time taken on given set of hyperparameters: 117.293679 seconds
+
+--------------------------------------------------
+Iteration Number: 73
+Number of Epochs: 50 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 1
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.459219 | Final loss:0.443329
+Train accuracy: 18.333333
+Dev accuracy: 11.041667
+Total time taken on given set of hyperparameters: 285.978720 seconds
+
+--------------------------------------------------
+Iteration Number: 74
+Number of Epochs: 50 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 10
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.459071 | Final loss:0.441230
+Train accuracy: 19.166667
+Dev accuracy: 10.416667
+Total time taken on given set of hyperparameters: 288.308024 seconds
+
+--------------------------------------------------
+Iteration Number: 75
+Number of Epochs: 50 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 50
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.457828 | Final loss:0.441977
+Train accuracy: 20.156250
+Dev accuracy: 8.750000
+Total time taken on given set of hyperparameters: 283.657361 seconds
+
+--------------------------------------------------
+Iteration Number: 76
+Number of Epochs: 50 
+Initial Learning Rate: 0.001000 
+Cost Function used: Sse 
+Learning Rate is being updated?: Yes 
+Early Stopping Regularization being used?: Yes 
+Batch Size: 100
+Layer type: Fc 
+Input Dimension: 784 	 Output Dimension: 256
+Layer type: Activation 
+Activation Function: Relu
+Layer type: Fc 
+Input Dimension: 256 	 Output Dimension: 64
+Layer type: Activation 
+Activation Function: Tanh
+Layer type: Fc 
+Input Dimension: 64 	 Output Dimension: 10
+Layer type: Softmax 
+Input Dimension: 10
+Training Size: (1920, 784)
+Validation Size: (480, 784)
+Initial loss:0.460201 | Final loss:0.443279
+Train accuracy: 19.218750
+Dev accuracy: 9.791667
+Total time taken on given set of hyperparameters: 287.762725 seconds
